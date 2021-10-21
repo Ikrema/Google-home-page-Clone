@@ -1,0 +1,112 @@
+*,*::before, *::after{
+padding:0;margin:0;
+}
+html, body{
+    height: 100%;
+}
+header{
+    height: 10%;
+    padding: 0.5em 1em;
+    display:flex;
+    align-items: center;
+    gap: 1em;
+}
+header a{
+    text-decoration: none;
+    font-style: none;
+    color: #70757a;
+    font-family: Helvetica Neue,Noto Naskh Arabic UI,Arial,sans-serif;
+}
+
+header svg{
+    height: 1.5em;
+}
+header svg * {
+    fill: #555;
+}
+header img{
+    height: 2.3em;
+    width:2.3em;
+    border-radius: 500em;
+}
+main{
+    height: 75%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+div.searchBar{
+    display:flex;
+    margin: 1em 0;
+    border: solid 1px #dfe1e5;
+    padding: 0.5em 1em;
+    border-radius: 100em;
+    gap: 1em;
+    max-height: 1.5em;
+}
+
+div.searchBar input{
+    width: 30em;
+    height: 1.5em;
+    border: none;
+} 
+div.buttons{
+    margin: 1em 0;
+
+}
+div.buttons button{
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: Helvetica Neue,Noto Naskh Arabic UI,Arial,sans-serif;
+    font-size: 14px;
+
+}
+div.searchBar svg{
+    height:100%;
+}
+footer{
+    background: #f2f2f2;
+    height:  15%;
+    direction: rtl;
+}
+footer div{
+    height: 50%;
+    line-height: 3em;
+    padding: 0 1em;
+}
+
+
+footer ul{
+    list-style-type: none;
+}
+footer li{
+    display: inline;
+    padding: 0 0.5em;
+    
+}
+footer li a{
+    text-decoration: none;
+    font-style: none;
+    color: #70757a;
+
+}
+
+footer .right{
+    float: right;
+}
+footer .left{
+    float: left;
+}
+main p{
+    font-family: Helvetica Neue,Noto Naskh Arabic UI,Arial,sans-serif;
+direction: rtl ;
+}
